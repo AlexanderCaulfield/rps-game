@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
+    <title>Rock, Paper, Scissors!</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
-    
+    <section class="hover">
+        <button class="hover-play-btn">
+            Play
+        </button>
+    </section>
+
+    <section class="game">
+        
+        <section class="game-score">
+            <div class="game-score-title">
+                SCORE
+            </div>
+
+            <div class="game-score-row">
+
+                <div class="game-score-row-img-and-text">
+                    <img src="./images/player.png" alt="Player Icon" class="game-score-row-img">
+                    <div class="game-score-row-text" id="human-score">
+                        
+                    </div>
+                </div>
+
+                <div class="game-score-row-img-and-text">
+                    <div class="game-score-row-text" id="computer-score">
+                        
+                    </div>
+                    <img src="./images/robot.png" alt="Robot Icon" class="game-score-row-img">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="game-screen">
+
+            <div class="game-screen-title">
+                ROCK, PAPER, SCISSORS!
+            </div>
+
+            <div class="game-screen-row">
+
+                <button class="game-screen-row-btn" value="rock">
+                    <img src="./images/rock.png" alt="Rock Button" class="game-screen-row-img">
+                </button>
+
+                <button class="game-screen-row-btn" value="paper">
+                    <img src="./images/paper.png" alt="Paper Button" class="game-screen-row-img">
+                </button>
+
+                <button class="game-screen-row-btn" value="scissors">
+                    <img src="./images/scissors.png" alt="Scissors Button" class="game-screen-row-img">
+                </button>
+
+            </div>
+
+            <div class="game-screen-results">
+                CHOOSE AN OPTION!
+            </div>
+
+            <footer class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="Copyright Icon">
+                    2025 ALEX CAULFIELD
+                </div>
+            </footer>
+
+        </section>
+
+    </section>
 <script src="./script.js"></script>    
 </body>
 </html>

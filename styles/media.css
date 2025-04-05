@@ -1,0 +1,135 @@
+@media (max-width: 1025px) {
+    .game-screen-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 770px) {
+    .game-score-title {
+        font-size: 40px;
+    }
+
+    .game-score-row-text {
+        font-size: 80px;
+    }
+
+    .game-score-row-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .game-screen-title {
+        font-size: 50px;
+    }
+
+    .game-screen-row-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .game-screen-results {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 660px) {
+    .game-screen-title {
+        font-size: 40px;
+    }
+
+    .game-screen-row-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .game-screen-results {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .game-score-title {
+        font-size: 30px;
+    }
+
+    .game-score-row-text {
+        font-size: 60px;
+    }
+
+    .game-score-row-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-screen-title {
+        font-size: 35px;
+    }
+
+    .game-screen-row-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-screen-row {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 430px) {
+    .game-score {
+        padding-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .game-screen-title {
+        font-size: 30px;
+    }
+
+    .game-screen-row-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .game-screen-row-btn {
+        padding: 5px 15px;
+    }
+
+    .game-screen-results {
+        font-size: 20px;
+    }
+
+    .footer-text {
+        padding-top: 175px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .game-score-title {
+        font-size: 25px;
+    }
+
+    .game-screen-row {
+        gap: 20px;
+    }
+
+    .game-score-row-text {
+        font-size: 50px;
+    }
+
+    .game-score-row-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .game-screen-title {
+        font-size: 25px;
+    }
+
+    .game-screen-results {
+        font-size: 20px;
+    }
+}
